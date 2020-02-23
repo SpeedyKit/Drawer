@@ -8,13 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		A01833112402CA8C00D71FC7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A01833102402CA8C00D71FC7 /* AppDelegate.swift */; };
-		A01833132402CA8C00D71FC7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A01833122402CA8C00D71FC7 /* SceneDelegate.swift */; };
-		A01833152402CA8C00D71FC7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A01833142402CA8C00D71FC7 /* ViewController.swift */; };
-		A01833182402CA8C00D71FC7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A01833162402CA8C00D71FC7 /* Main.storyboard */; };
 		A018331A2402CA8D00D71FC7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A01833192402CA8D00D71FC7 /* Assets.xcassets */; };
 		A018331D2402CA8D00D71FC7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A018331B2402CA8D00D71FC7 /* LaunchScreen.storyboard */; };
 		A01833282402CA8E00D71FC7 /* DrawerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A01833272402CA8E00D71FC7 /* DrawerTests.swift */; };
 		A01833332402CA8E00D71FC7 /* DrawerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A01833322402CA8E00D71FC7 /* DrawerUITests.swift */; };
+		A01833422402CAE600D71FC7 /* Drawer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A01833412402CAE600D71FC7 /* Drawer.swift */; };
+		A01833472402D0A600D71FC7 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A01833452402D0A600D71FC7 /* HomeViewController.swift */; };
+		A01833482402D0A600D71FC7 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A01833462402D0A600D71FC7 /* HomeViewController.xib */; };
+		A018334C2402D4AA00D71FC7 /* HomePageFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = A018334B2402D4AA00D71FC7 /* HomePageFlowLayout.swift */; };
+		A018334F2402E89C00D71FC7 /* HomePagePlainCVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A018334D2402E89C00D71FC7 /* HomePagePlainCVCell.swift */; };
+		A01833502402E89C00D71FC7 /* HomePagePlainCVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A018334E2402E89C00D71FC7 /* HomePagePlainCVCell.xib */; };
+		A01833522402EB1F00D71FC7 /* UIView+layer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A01833512402EB1F00D71FC7 /* UIView+layer.swift */; };
+		A01833542402F02C00D71FC7 /* DrawerDefine.swift in Sources */ = {isa = PBXBuildFile; fileRef = A01833532402F02C00D71FC7 /* DrawerDefine.swift */; };
+		A01833582402F2AF00D71FC7 /* BaseStyleExampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A01833562402F2AF00D71FC7 /* BaseStyleExampleViewController.swift */; };
+		A01833592402F2AF00D71FC7 /* BaseStyleExampleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A01833572402F2AF00D71FC7 /* BaseStyleExampleViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,9 +44,6 @@
 /* Begin PBXFileReference section */
 		A018330D2402CA8C00D71FC7 /* Drawer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Drawer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A01833102402CA8C00D71FC7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A01833122402CA8C00D71FC7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A01833142402CA8C00D71FC7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		A01833172402CA8C00D71FC7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A01833192402CA8D00D71FC7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A018331C2402CA8D00D71FC7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A018331E2402CA8D00D71FC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +53,16 @@
 		A018332E2402CA8E00D71FC7 /* DrawerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DrawerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A01833322402CA8E00D71FC7 /* DrawerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawerUITests.swift; sourceTree = "<group>"; };
 		A01833342402CA8E00D71FC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A01833412402CAE600D71FC7 /* Drawer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Drawer.swift; sourceTree = "<group>"; };
+		A01833452402D0A600D71FC7 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		A01833462402D0A600D71FC7 /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		A018334B2402D4AA00D71FC7 /* HomePageFlowLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageFlowLayout.swift; sourceTree = "<group>"; };
+		A018334D2402E89C00D71FC7 /* HomePagePlainCVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePagePlainCVCell.swift; sourceTree = "<group>"; };
+		A018334E2402E89C00D71FC7 /* HomePagePlainCVCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomePagePlainCVCell.xib; sourceTree = "<group>"; };
+		A01833512402EB1F00D71FC7 /* UIView+layer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+layer.swift"; sourceTree = "<group>"; };
+		A01833532402F02C00D71FC7 /* DrawerDefine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawerDefine.swift; sourceTree = "<group>"; };
+		A01833562402F2AF00D71FC7 /* BaseStyleExampleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseStyleExampleViewController.swift; sourceTree = "<group>"; };
+		A01833572402F2AF00D71FC7 /* BaseStyleExampleViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BaseStyleExampleViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,10 +113,12 @@
 		A018330F2402CA8C00D71FC7 /* Drawer */ = {
 			isa = PBXGroup;
 			children = (
+				A018334A2402D47300D71FC7 /* ExampleControllers */,
+				A01833492402D46400D71FC7 /* Classes */,
+				A01833402402CACE00D71FC7 /* Drawer */,
 				A01833102402CA8C00D71FC7 /* AppDelegate.swift */,
-				A01833122402CA8C00D71FC7 /* SceneDelegate.swift */,
-				A01833142402CA8C00D71FC7 /* ViewController.swift */,
-				A01833162402CA8C00D71FC7 /* Main.storyboard */,
+				A01833452402D0A600D71FC7 /* HomeViewController.swift */,
+				A01833462402D0A600D71FC7 /* HomeViewController.xib */,
 				A01833192402CA8D00D71FC7 /* Assets.xcassets */,
 				A018331B2402CA8D00D71FC7 /* LaunchScreen.storyboard */,
 				A018331E2402CA8D00D71FC7 /* Info.plist */,
@@ -126,6 +142,43 @@
 				A01833342402CA8E00D71FC7 /* Info.plist */,
 			);
 			path = DrawerUITests;
+			sourceTree = "<group>";
+		};
+		A01833402402CACE00D71FC7 /* Drawer */ = {
+			isa = PBXGroup;
+			children = (
+				A01833412402CAE600D71FC7 /* Drawer.swift */,
+				A01833532402F02C00D71FC7 /* DrawerDefine.swift */,
+			);
+			path = Drawer;
+			sourceTree = "<group>";
+		};
+		A01833492402D46400D71FC7 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				A018334B2402D4AA00D71FC7 /* HomePageFlowLayout.swift */,
+				A018334D2402E89C00D71FC7 /* HomePagePlainCVCell.swift */,
+				A018334E2402E89C00D71FC7 /* HomePagePlainCVCell.xib */,
+				A01833512402EB1F00D71FC7 /* UIView+layer.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		A018334A2402D47300D71FC7 /* ExampleControllers */ = {
+			isa = PBXGroup;
+			children = (
+				A01833552402F28F00D71FC7 /* BaseStyle */,
+			);
+			path = ExampleControllers;
+			sourceTree = "<group>";
+		};
+		A01833552402F28F00D71FC7 /* BaseStyle */ = {
+			isa = PBXGroup;
+			children = (
+				A01833562402F2AF00D71FC7 /* BaseStyleExampleViewController.swift */,
+				A01833572402F2AF00D71FC7 /* BaseStyleExampleViewController.xib */,
+			);
+			path = BaseStyle;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,9 +285,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A01833592402F2AF00D71FC7 /* BaseStyleExampleViewController.xib in Resources */,
 				A018331D2402CA8D00D71FC7 /* LaunchScreen.storyboard in Resources */,
 				A018331A2402CA8D00D71FC7 /* Assets.xcassets in Resources */,
-				A01833182402CA8C00D71FC7 /* Main.storyboard in Resources */,
+				A01833482402D0A600D71FC7 /* HomeViewController.xib in Resources */,
+				A01833502402E89C00D71FC7 /* HomePagePlainCVCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,9 +314,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A01833152402CA8C00D71FC7 /* ViewController.swift in Sources */,
+				A01833522402EB1F00D71FC7 /* UIView+layer.swift in Sources */,
+				A01833422402CAE600D71FC7 /* Drawer.swift in Sources */,
 				A01833112402CA8C00D71FC7 /* AppDelegate.swift in Sources */,
-				A01833132402CA8C00D71FC7 /* SceneDelegate.swift in Sources */,
+				A01833472402D0A600D71FC7 /* HomeViewController.swift in Sources */,
+				A01833542402F02C00D71FC7 /* DrawerDefine.swift in Sources */,
+				A018334C2402D4AA00D71FC7 /* HomePageFlowLayout.swift in Sources */,
+				A01833582402F2AF00D71FC7 /* BaseStyleExampleViewController.swift in Sources */,
+				A018334F2402E89C00D71FC7 /* HomePagePlainCVCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,14 +357,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		A01833162402CA8C00D71FC7 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A01833172402CA8C00D71FC7 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		A018331B2402CA8D00D71FC7 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -366,7 +418,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -420,7 +472,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -437,6 +489,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = NB834M3BNU;
 				INFOPLIST_FILE = Drawer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -455,6 +508,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = NB834M3BNU;
 				INFOPLIST_FILE = Drawer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
